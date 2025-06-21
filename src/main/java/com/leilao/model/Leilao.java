@@ -87,7 +87,7 @@ public class Leilao {
                 .max(Comparator.comparingInt(Lance::getValor));
 
         maiorLance.ifPresent(l -> System.out.println(
-                STR."Parabéns ao ganhador: \{l.getParticipante().getNomeUsuario()}! Com o lance de R$\{l.getValor()} no objeto \"\{nomeObjeto}\"."
+               // STR."Parabéns ao ganhador: \{l.getParticipante().getNomeUsuario()}! Com o lance de R$\{l.getValor()} no objeto \"\{nomeObjeto}\"."
         ));
 
         return maiorLance.map(Lance::getParticipante);

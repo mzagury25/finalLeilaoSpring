@@ -68,4 +68,5 @@ class LeilaoService {
         boolean registrado = leilao.registrarLance(lance);
         System.out.println(descricao + " registrado: " + registrado);
     }
+
 }
