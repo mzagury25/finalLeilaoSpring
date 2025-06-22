@@ -66,4 +66,4 @@ public interface LanceRepository extends JpaRepository<Lance, Long> {
     // Find bids above a certain value
     List<Lance> findByLeilaoIdAndValorGreaterThanEqualOrderByValorDesc(Long leilaoId,
                                                                        Double valor);
-}s
+}
