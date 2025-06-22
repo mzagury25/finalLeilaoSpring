@@ -1,8 +1,8 @@
-package com.leilao.model;
+package com.leilao.service;
 
 import com.leilao.model.Leilao;
 import com.leilao.model.Lance;
-import com.leilao.repository.LeilaoRepository;
+import repository.LeilaoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

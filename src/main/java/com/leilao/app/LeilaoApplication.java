@@ -1,4 +1,4 @@
-package com.leilao.model;
+package com.leilao.app;
 
 import com.leilao.model.Lance;
 import com.leilao.model.Leilao;
