@@ -14,8 +14,9 @@ Antes de iniciar a aplicação, confira se tem instalado:
 
 ### 1. Clone o repositório
 
+```
 git clone https://github.com/mzagury25/finalLeilaoSpring.git
-
+```
 ### 2. Setup do banco de dados
 
 Esse projeto utiliza MySQL rodando num container Docker. Para iniciar o banco de dados:
@@ -31,8 +32,9 @@ Inicie a instância MySQL com a seguinte configuração:
 ```bash
 mvn clean install
 ```
+```
 mvn spring-boot:run
-
+```
 `http://localhost:8080`
 
 
