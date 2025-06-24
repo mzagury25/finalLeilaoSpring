@@ -8,6 +8,6 @@ public class Notificacao {
     private String mensagem;
     private LocalDate dataEnvio;
     private boolean lida;
-    private TipoNotificacao tipo; // (LANCE_SUPERADO, LEILAO_FINALIZADO, etc.)
+    //private TipoNotificacao tipo; // (LANCE_SUPERADO, LEILAO_FINALIZADO, etc.)
     private Leilao leilaoRelacionado;
 }
