@@ -35,3 +35,4 @@ CREATE TABLE `lance` (
     FOREIGN KEY (`usuario_id`) REFERENCES `usuario`(`id`),
     FOREIGN KEY (`leilao_id`) REFERENCES `leilao`(`id`) ON DELETE CASCADE
 );
+
